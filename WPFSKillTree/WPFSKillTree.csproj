@@ -284,6 +284,7 @@
     <Compile Include="TreeGenerator\Views\SettingsWindow.xaml.cs">
       <DependentUpon>SettingsWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Ascendancy\AscendantAdditionalStart.cs" />
     <Compile Include="Views\CraftWindow.xaml.cs">
       <DependentUpon>CraftWindow.xaml</DependentUpon>
     </Compile>
@@ -319,6 +320,9 @@
     </Compile>
     <Compile Include="Views\MetroMessageBoxWindow.xaml.cs">
       <DependentUpon>MetroMessageBoxWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormChooseGroupName.xaml.cs">
+      <DependentUpon>FormChooseGroupName.xaml</DependentUpon>
     </Compile>
     <Page Include="TreeGenerator\Views\AdvancedGeneratorTab.xaml">
       <SubType>Designer</SubType>
@@ -425,6 +429,10 @@
     <Page Include="Views\TabPicker.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\FormChooseGroupName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
